@@ -8,3 +8,8 @@ const sequelize = new Sequelize(DB_NAME, DB_KEY, DB_AUTH, {
 });
 
 module.exports = sequelize;
+/* 
+const sequelize = new Sequelize('portifolioDb', 'admins', 'Ironmharkv10#', {
+    host: 'srvportifoliodb.mysql.database.azure.com',
+    dialect: 'mysql'
+}); */
